@@ -1,0 +1,32 @@
+# Site settings
+title: Homepage of Romain Bizzari
+email: romain.bizzari@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Homepage of Romain Bizzari, PhD fellow in numerical
+  simulation of multiperforated plates at CERFACS, Toulouse France
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rbizzari.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: romain.bizzari@gmail.com
+  facebook: romain.bizzari
+  flickr:
+  github: rbizzari
+  instagram:
+  linkedin: romainbizzari
+  pinterest:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: #c_lapeyre
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: user/MrAspleet # channel/<your_long_string> or user/<user-name>
+googleplus: #+CorentinLapeyre # anything in your profile username that comes after plus.google.com/
