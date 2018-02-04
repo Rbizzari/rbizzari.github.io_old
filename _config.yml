@@ -30,3 +30,5 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: user/MrAspleet # channel/<your_long_string> or user/<user-name>
 googleplus: #+CorentinLapeyre # anything in your profile username that comes after plus.google.com/
+
+permalink: /blog/:2018/:02/:04/:title
