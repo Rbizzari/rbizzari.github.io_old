@@ -1,0 +1,50 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--h2 class="footer-heading">{{ site.title }}</h2-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <!--li>{{ site.title }}</li-->
+          <p>
+            Corentin Lapeyre<br>
+            CERFACS, COOP - CSG/CFD<br>
+            42 avenue Gaspard Coriolis<br>
+            31057 Toulouse Cedex 01<br>
+            France
+          </p>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3" align="right">
+        {% if site.footer-links.email %}
+        <a href="mailto:{{ site.footer-links.email }}"><i class="svg-icon email"></i></a>
+        {% endif %}
+
+        {% if site.footer-links.github %}
+        <a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>
+        {% endif %}
+
+#        {% if site.footer-links.twitter %}
+#        <a href="https://twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
+#        {% endif %}
+
+        {% if site.footer-links.linkedin %}
+        <a href="https://fr.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>
+        {% endif %}
+
+#        {% if site.footer-links.googleplus %}
+#        <a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i class="svg-icon googleplus"></i></a>
+#        {% endif %}
+      </div>
+
+      <!--div class="footer-col  footer-col-3">
+        <p class="text">{{ site.description }}</p>
+      </div-->
+    </div>
+
+  </div>
+
+</footer>
